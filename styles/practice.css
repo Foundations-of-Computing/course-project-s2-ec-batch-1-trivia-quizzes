@@ -1,0 +1,59 @@
+body {
+    font-family:  Geneva, Verdana, sans-serif;
+    background-image:url(https://img.freepik.com/free-vector/abstract-technological-background_23-2148897676.jpg?ga=GA1.1.1694499205.1743529648&semt=ais_hybrid&w=740);
+   background-position:center;
+   background-repeat: no-repeat;
+   height: 655vh;
+   background-size: cover;
+   text-align:center;
+   font-size: large;
+   color:white;
+  font-family: cursive;
+   
+   background-repeat: no-repeat;
+  
+  
+
+}
+.answer {
+    display: none;
+    color:white;
+  
+  }
+  .show-answer{
+    border:none;
+    color: #fff;
+    font-size:13px;
+    padding:15px 20px;
+    border-radius:15px;
+    cursor:pointer;
+    transition: transform 0.2s ease-in-out;
+  animation:none;
+    background-color:rgb(247, 20, 167);
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+  

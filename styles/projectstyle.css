@@ -1,0 +1,145 @@
+
+    body {
+        font-family:  Geneva, Verdana, sans-serif;
+        background-image:url(https://img.freepik.com/free-vector/abstract-technological-background_23-2148897676.jpg?ga=GA1.1.1694499205.1743529648&semt=ais_hybrid&w=740);
+       background-position:center;
+       background-repeat: no-repeat;
+       height: 100vh;
+       background-size: cover;
+       text-align:center;
+       font-size: large;
+       color:white;
+      font-family: cursive;
+       
+       background-repeat: no-repeat;
+      
+      
+
+    }
+    
+  header {
+        background-color:white;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    
+   h1 {
+    font-size:50px;
+       font-style: oblique;
+       font-family:cursive;
+       font-weight: bolder;
+        opacity: 0;
+        color:rgb(247, 20, 167); 
+        animation:glow 1s infinite alternate;
+        animation: fadeIn 1s ease-in forwards;
+        
+        text-shadow: 
+          -2px -2px 0 black,  
+           2px -2px 0 black,
+          -2px  2px 0 black,
+           2px  2px 0 black; 
+        
+      
+   }
+   #content{
+    font-family:cursive;
+    opacity: 0;
+    color:white;
+    animation: fadeIn 1s ease-in-out 1s forwards; 
+  }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+   .cat1{
+    animation:none;
+   }
+   #selection{
+    font-family:cursive;
+    font-weight: bold;
+    font-style: oblique;
+    font-size:45px;
+    color:white;
+   }
+   @keyframes glow {
+    0% { box-shadow: 0 0 5px #f72cc1; }
+    50% { box-shadow: 0 0 20px  #f72cc1; }
+    100% { box-shadow: 0 0 5px  #f72cc1;}
+  }
+   button {
+    border:none;
+    color: #fff;
+    font-size:20px;
+    padding:15px 30px;
+    border-radius:15px;
+    cursor:pointer;
+    transition: transform 0.2s ease-in-out;
+    animation:glow 1s infinite alternate;
+    background-color:rgb(247, 20, 167);
+ }
+ button:hover{
+    background-color:darkmagenta;
+    transform: scale(1.1);
+    color:black;
+  
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+ a{
+color:aliceblue;
+font:message-box;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+ .menu {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.menu-button {
+  font-size: 30px;
+  cursor: pointer;
+ background: none;
+  border: none;
+  padding: 7px;
+  animation:none;
+  
+  
+  
+}
+.menu-content {
+  display: none;
+  list-style: none;
+  padding: 0;
+  background: white;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+ .menu:hover .menu-content {
+  display: block;
+}
+.menu-content li {
+  padding: 8px;
+}
+.menu-content a {
+  text-decoration: none;
+  color: black;
+}
+.menu-content li:hover {
+  background: lightgray;
+}
+
+
