@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Trivia quiz</title>
+    <meta charset="UTF-8">
+    <meta name="Trivia quiz" content="Website for informative quiz">
+    <meta name="author" content="Devika and Linta">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+    <meta name="refresh" content="30">
+    <link rel="stylesheet" href="quizpg.css">
+ </head>
+ <body>
+   
+
+   <h1>Welcome to the coding quiz</h1>
+       <h2>Test your knowledge in coding with fun and engaging quizzes!
+       </h2>
+       <div class="quiz">
+        <button id="start-btn">Start quiz</button>
+        <div id="quiz-content" style="display:none;">
+        <div class="question" id="question1">
+           <p>1.What does CSS stand for?</p>
+           <button class="answer" data-correct="true">Cascading Style Sheets</button>
+           <button class="answer">Colourful Style Sheet</button>
+           <button class="answer">Computer Style System
+          </button>    
+          <button class="answer">Creative Style Sheets</button>
+        </div>
+        <div class="question" id="question2"  style="display:none;">
+           <p>2.How do you declare a function in JavaScript?</p>
+           <button class="answer" >def myFunction()
+          </button>
+           <button class="answer" data-correct="true">function myFunction() </button>
+           <button class="answer">fn myFunction()
+          </button>    
+          <button class="answer">create function myFunction()
+          </button>
+        </div>
+        <div class="question" id="question3"  style="display:none;">
+           <p>3.Which symbol is used to select an ID in CSS?</p>
+           <button class="answer" >. (dot)
+          </button>
+           <button class="answer" data-correct="true">#(hash)</button>
+           <button class="answer">@(at)</button>    
+          <button class="answer">&(ampersand)</button>
+        </div>
+        <div class="question" id="question4"  style="display:none;">
+           <p>4.Which operator is used for "AND" in Python?</p>
+           <button class="answer" >&&</button>
+           <button class="answer">||</button>
+           <button class="answer" data-correct="true">and</button>    
+          <button class="answer">&</button>
+        </div>
+        <div class="question" id="question5"  style="display:none;">
+           <p>5.Which  HTML tag is used to create a hyperlink ?</p>
+           <button class="answer" >link</button>
+           <button class="answer">href</button>
+           <button class="answer">hyper</button>    
+          <button class="answer" data-correct="true">a</button>
+        </div>
+        <button id="next-btn"  style="display:none;">Next</button>
+        <p id="score">Score:0</p>
+     </div>
+     <div id="result-container" style="display: none;">
+      <h2>Quiz Completed!</h2>
+      <p id="final-score"></p>
+      <button id="restart-btn">Restart Quiz</button>
+   </div>
+      </div>
+      <script src="script.js"></script>
+      </body>
+      </html>
+      
+     
+     
+     
+   

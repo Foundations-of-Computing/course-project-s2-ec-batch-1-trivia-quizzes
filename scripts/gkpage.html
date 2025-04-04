@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Trivia quiz</title>
+    <meta charset="UTF-8">
+    <meta name="Trivia quiz" content="Website for informative quiz">
+    <meta name="author" content="Devika and Linta">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+    <meta name="refresh" content="30">
+    <link rel="stylesheet" href="quizpg.css">
+ </head>
+ <body>
+   <h1>General Knowledge Quizzes</h1>
+<h2>Test your knowledge with our fun and engaging general knowledge quizzes! 
+</h2>
+<div class="quiz">
+   <button id="start-btn">Start quiz</button>
+   <div id="quiz-content" style="display:none;">
+   <div class="question" id="question1">
+      <p>1.What is the capital of Japan?</p>
+      <button class="answer" data-correct="true">Tokyo</button>
+      <button class="answer">Seoul</button>
+      <button class="answer">Beijing</button>    
+     <button class="answer">Bangkok</button>
+   </div>
+   <div class="question" id="question2" style="display:none;">
+      <p>2.Which planet is called Red planet?</p>
+      <button class="answer" >Earth</button>
+      <button class="answer" data-correct="true">Mars</button>
+      <button class="answer">Uranus</button>    
+     <button class="answer">venus</button>
+   </div>
+   <div class="question" id="question3" style="display:none;">
+      <p>3.Which is the largest ocean in the world?</p>
+      <button class="answer" >Indian Ocean</button>
+      <button class="answer" data-correct="true">Pacific ocean</button>
+      <button class="answer">Atlantic ocean</button>    
+     <button class="answer">Arctic Ocean</button>
+   </div>
+   <div class="question" id="question4" style="display:none;">
+      <p>4.Which is the longest river in the world?</p>
+      <button class="answer" >Amazon</button>
+      <button class="answer">Mississippi</button>
+      <button class="answer" data-correct="true">Nile</button>    
+     <button class="answer">Yangtze</button>
+   </div>
+   <div class="question" id="question5" style="display:none;">
+      <p>5.Which country is known as the land of rising sun?</p>
+      <button class="answer" >China</button>
+      <button class="answer">South Korea</button>
+      <button class="answer">Thailand</button>    
+     <button class="answer" data-correct="true">Japan</button>
+   </div>
+   <button id="next-btn" style="display:none;">Next</button>
+   <p id="score">Score:0</p>
+</div>
+<div id="result-container" style="display: none;">
+   <h2><i>Quiz Completed!</i></h2>
+   <p id="final-score"></p>
+   <button id="restart-btn">Restart Quiz</button>
+</div>
+ </div>
+ <script src="script.js"></script>
+ </body>
+ </html>
+ 
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Trivia quiz</title>
+ <meta charset="UTF-8">
+ <meta name="Trivia quiz" content="Website for informative quiz">
+ <meta name="author" content="Devika and Linta">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+ <meta name="refresh" content="30">
+ <link rel="stylesheet" href="quizpg.css">
+ </head>
+ <body>
+ <h1>APTITUDE QUESTIONS</h1>
+<h2>Lets freshen up our thinking with some interesting aptitude questions..
+</h2>
+<div class="quiz">
+ <button id="start-btn">Start quiz</button>
+ <div id="quiz-content" style="display:none;">
+ <div class="question" id="question1">
+ <p>1.What is the next number in the series:2,4,8,16...?</p>
+ <button class="answer" data-correct="true">32</button>
+ <button class="answer">64</button>
+ <button class="answer">24</button> 
+ <button class="answer">36</button>
+ </div>
+ <div class="question" id="question2" style="display:none;">
+ <p>2.If A is taller than B ,and B is taller than c, then who is the shortest?</p>
+ <button class="answer" >A</button>
+ <button class="answer" data-correct="true">C</button>
+ <button class="answer">B</button> 
+ <button class="answer">Both A and B same size</button>
+ </div>
+ <div class="question" id="question3" style="display:none;">
+ <p>3.A train is movig at a speed of 60 km/hr.How far it will travel in 45 minutes?</p>
+ <button class="answer" >40</button>
+ <button class="answer" data-correct="true">45</button>
+ <button class="answer">50</button> 
+ <button class="answer">30</button>
+ </div>
+ <div class="question" id="question4" style="display:none;">
+ <p>4.What is 25% of 200?</p>
+ <button class="answer" >80</button>
+ <button class="answer">45</button>
+ <button class="answer" data-correct="true">50</button> 
+ <button class="answer">48</button>
+ </div>
+ <div class="question" id="question5" style="display:none;">
+ <p>5.Today is a Monday.After 61 days it will be a:?</p>
+ <button class="answer" >Sunday</button>
+ <button class="answer">Tuesday</button>
+ <button class="answer">Friday</button> 
+ <button class="answer" data-correct="true">Saturday</button>
+ </div>
+ <button id="next-btn" style="display:none;">Next</button>
+ <p id="score">Score:0</p>
+</div>
+<div id="result-container" style="display: none;">
+ <h2>Quiz Completed!</h2>
+ <p id="final-score"></p>
+ <button id="restart-btn">Restart Quiz</button>
+</div>
+ </div>
+ <script src="script.js"></script>
+ </body>
+ </html>
